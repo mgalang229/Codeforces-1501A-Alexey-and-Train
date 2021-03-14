@@ -32,7 +32,7 @@ int main() {
 			// this is the formula to get the staying time in a certain station
 			int staying_time = (b[i] - a[i] + 1) / 2;
 			if (i < n - 1) {
-				// if Alexey is hasn't arrived in the n-th station,
+				// if Alexey hasn't arrived in the n-th station,
 				// then add the staying time to the total time
 				total_time += staying_time;
 			}
